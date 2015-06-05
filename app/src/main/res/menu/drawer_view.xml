@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_add"
+            android:checked="true"
+            android:title="Navigation View" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_action_add"
+            android:title="Floating labels" />
+        <item
+            android:id="@+id/nav_tabs"
+            android:icon="@drawable/ic_action_add"
+            android:title="Tabs and Layouts" />
+
+
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Sub Header">
+        <menu>
+            <item
+                android:id="@+id/navigation_sub_item_1"
+                android:title="Configuración"/>
+            <item
+                android:id="@+id/navigation_sub_item_2"
+                android:title="Ayuda y Comentarios"/>
+        </menu>
+    </item>
+
+</menu>

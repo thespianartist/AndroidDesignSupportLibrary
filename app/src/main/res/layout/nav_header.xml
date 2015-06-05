@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="172dp"
+android:background="@color/primary_dark"
+android:orientation="vertical"
+android:paddingTop="@dimen/status_bar_height"
+android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/avatar"
+    android:layout_width="@dimen/list_item_avatar_size"
+    android:layout_height="@dimen/list_item_avatar_size"
+    android:src="@drawable/profile"
+    android:elevation="4dp"
+    android:layout_margin="@dimen/spacing_large"
+/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/email"
+    android:layout_marginLeft="@dimen/spacing_large"
+    android:layout_marginStart="@dimen/spacing_large"
+    android:text="GDG Androititlan"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="@dimen/spacing_large"
+    android:layout_marginStart="@dimen/spacing_large"
+    android:layout_marginBottom="@dimen/spacing_large"
+    android:text="erikcaffrey10@gmail.com"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</RelativeLayout>

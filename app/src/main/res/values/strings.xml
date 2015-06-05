@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">GDG Androititlan I/O 2015</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_view">Navigation View</string>
+
+
+    <string name="navigation_drawer">Navigation Drawer</string>
+
+    <string name="navigation_view_concept">
+        Es un componente importante dentro de una aplicación android
+        y se ha convertido en una sencilla forma de navegar dentro de una aplicación principalmente para nuevos usuarios.
+        </string>
+
+      <string name="navigation_view_concept_two">
+        Hace mas facil la creación de un Navigation Drawer ya
+          que tiene la habilidad de inflar sus items a través de un recurso menu.
+        </string>
+
+     <string name="navigation_view_concept_three">
+        Dirigete activity_main.xml encontraras el ejemplo de como implementar
+         android.support.design.widget.NavigationView y la configuranción de un header nav_header.xml y sus items drawer_view.xml.
+        </string>
+
+    <string name="floating_labels">TextInputLayout</string>
+    <string name="text_input_layout">TextInputLayout</string>
+    <string name="text_input_layout_conecpt_two">Dirigete a fragment_two.xml y FragmentTwo.class para mirar implementación.</string>
+    <string name="floating_labels_concept">
+        Los EditText han mejorado en su aspecto material design antes el texto de sugerencia se ocultaba
+        al escribir un caracter, ahora se puede hacer uso de android.support.design.widget.TextInputLayout
+        de tal manera que al ingresar algun texto la etiqueta de sugerencia tendrá un efecto flotante quedando por encima del EditText y asi
+        el usuario nunca perdera el contexto de lo que esta escribiendo.
+        </string>
+
+<string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Deserunt ea, earum eius ex, illo maiores mollitia nobis,
+    nostrum pariatur perspiciatis possimus quas quisquam rem sapiente soluta vel velit voluptate voluptates.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+    <string name="floating_button">Floating Action Button</string>
+    <string name="floating_button_concept">
+        Un botón de acción flotante  denota una acción primaria en su interfaz.
+        FloatingActionButton ahora se encuentra disponible dentro la biblioteca  por defecto usa el accent color del tema , para implementarlo
+        solo necesitamos android.support.design.widget.FloatingActionButton</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="snackbar_concept">
+        Es un mensaje que proporciona una ligera, rápida retroalimentación acerca de una operación, se muestran en la parte inferior
+        de la pantalla y contienen texto con una acción individual opcional.
+        Desaparencen automáticamente después de la duración de tiempo determinado por la animación
+        de la pantalla. Además, los usuarios pueden eliminarlo antes de que el tiempo de espera termine.
+    </string>
+    <string name="tabs">Tabs</string>
+
+    <string name="tabs_concept">El cambio entre diferentes secciones de una aplicación a
+        través de las pestañas no es un nuevo concepto de material design se mantienen como
+        un patrón de navegación en el nivel superior para la organización de diferentes agrupaciones
+        de contenido, ahora es mas facil hacer tabs con android.support.design.widget.TabLayout.</string>
+
+    <string name="concepts_all">Dirigete a fragmen_three.xml y FragmentThree.class para ver la implementación</string>
+    <string name="coordinator_layout">Coordinator Layout</string>
+    <string name="coordinator_layout_concept">Es un FrameLayout con super poderes, el cual tiene la habilidad de manejar la interacción
+        entre vistas hijas teniendo el control de sus eventos (como scroll), tambien se puede visualizar como un contenedor que
+        permite a vistas hijas anidarse a este layout, por ejemplo cuando hacemos un scroll a una de sus vistas anidadas (como un
+        recycleview o NestedScrollView) es lo suficiente intelgente para saber que debe colpasar el toolbar o coultarse.
+        Puedes visualizar la implementación en activity_detail.xml
+    </string>
+    <string name="app_bar_layout">AppBarLayout</string>
+    <string name="app_bar_layout_concept">Es un LinearLayout vertical que permite al Toolbar y otras vistas
+        hijas (como un TabLayout) responder ante algun evento de scroll, las cuales deben
+        proporcionar un comportamiento de desplazamiento haciendo uso de setScrollFlags o app:layout_scrollFlags puedes ver la implementación en
+    fragment_three.xml, Hay que destacar que esta fuertemente ligado a un CoordinatorLayout ya que es usado como un hijo directo.</string>
+    <string name="collapsing_toolbar_layout">CollapsingToolbarLayout</string>
+    <string name="collapsing_toolbar_layout_concept">Envuelve un Toolbar el cual implementa un collapsing app bar
+       y esta diseñado para ser usado como un hijo directo de AppBarLayout.
+       En nuestro ejemplo (activity_detail.xml) sirvio para colapsar el headerImage (app:layout_collapseMode="parallax" le da el efecto paralax al ImageView )
+        con el toolbar app:layout_collapseMode="pin" permite que el toolbar permanezca fijo mientras la vista colpsa, app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        le da la habilidad al CollapsingToolbarLayout de un evento scroll.  </string>
+    <string name="concepts_all_two">Dirigete a activity_detail.xml  y DetailActivity.class  para ver la implementación</string>
+</resources>
